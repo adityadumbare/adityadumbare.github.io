@@ -485,6 +485,17 @@ a.active {
 
 /* ======= INTRODUCTION ======= */
 
+
+
+
+
+
+
+
+
+
+
+
 #intro {
     height: 700px;
 }
@@ -622,7 +633,7 @@ a.fa.fa-angle-down:focus {
 }
 
 .tldr-proc {
-    width: 20%;
+    width: 17%;
     display: inline-block;
     vertical-align: top;
 }
@@ -664,7 +675,11 @@ a.fa.fa-angle-down:focus {
 }
 
 @media screen and (max-width: 600px) {
+    #about p{
+        font-size: 12px;
+    }
     #about #tl-dr {
+      
         padding: 30px 0;
     }
     #about #tl-dr h5 {
@@ -678,9 +693,12 @@ a.fa.fa-angle-down:focus {
     }
     #about #tl-dr h5 {
         /*font-size: 10px;*/
+        font-size: 8px;
+        margin-left: 8px;
     }
     .tldr-icon {
-        font-size: 30px;
+        width: 17%;
+        font-size: 20px;
     }
     #tldr-keyboard {
         font-size: 40px;
@@ -688,6 +706,11 @@ a.fa.fa-angle-down:focus {
 }
 
 @media screen and (max-width: 480px) {
+    /* .navbar-brand.page-scroll {
+        letter-spacing: 3px;
+        font-size: 20px;
+      } */
+
     #about img#prof-pic {
         width: 150px;
     }
@@ -700,9 +723,27 @@ a.fa.fa-angle-down:focus {
     .tlder-proc {
         width: 32%;
     }
+    #about #tl-dr h5 {
+        /*font-size: 10px;*/
+        font-size: 8px;
+        margin-left: 8px;
+    }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
+
+    #intro h1{
+        font-size: 40px;
+    }
+    #intro p{
+        font-size:15px ;
+    }
+
+    .navbar-brand.page-scroll {
+        letter-spacing: 3px;
+        font-size: 16px;
+      }
+
     #about #tl-dr {
         padding: 20px 0;
         height: 180px;
@@ -710,12 +751,43 @@ a.fa.fa-angle-down:focus {
     }
     #about #tl-dr h4 {
         margin-bottom: 5px;
+      
     }
     .tldr-icon {
-        /*font-size: 24px;*/
+        font-size: 20px;
+        
     }
     #tldr-keyboard {
         font-size: 34px;
+    }
+    #about #tl-dr h5 {
+        /*font-size: 10px;*/
+        font-size: 6px;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    #about #tl-dr {
+        padding: 20px 0;
+        height: 180px;
+        width: 95%;
+    }
+    #about #tl-dr h4 {
+        margin-bottom: 5px;
+      
+    }
+    .tldr-icon {
+        font-size: 15px;
+        
+    }
+    #tldr-keyboard {
+        font-size: 34px;
+    }
+    #about #tl-dr h5 {
+        /*font-size: 10px;*/
+        font-size: 4px;
+        margin-left: 8px;
     }
 }
 
